@@ -26,7 +26,7 @@ const greeting = {
     "A passionate results-driven Software Developer having an experience in cross-platform (web and client-server) application development, design using object-oriented programming and cloud technologies."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1rGrNugzvtSTK6OGzSIPEztfvyVu7VcWF/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1h0OrSGvcDU4ibAYw17tgvUqCB47kfmMLpN7f_2pGVOU/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
