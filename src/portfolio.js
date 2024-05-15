@@ -20,28 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Vamshi Krishna",
+  title: "Hi all, I'm Vamshi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate results-driven Software Developer having an experience in cross-platform (web and client-server) application development, design using object-oriented programming and cloud technologies."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1rGrNugzvtSTK6OGzSIPEztfvyVu7VcWF/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/",
+  linkedin: "https://www.linkedin.com/in/vamshi-krishna-r/",
+  gmail: "reddysetty.vamshi@gmail.com",
+  // instagram: "https://www.instagram.com/vam_shhh/",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -52,18 +47,23 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design highly interactive Front end / User Interfaces for your web and mobile applications."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Develop J2EE applications and RESTful web services using Spring MVC and Spring boot."
+    ),
+    emoji("⚡ Strong background with the core java concepts like Stream APIs, collections, exception handling, multithreading and executor service."),
+    emoji("⚡ Deep knowledge on cloud technologies, such as Amazon Web Services (AWS).")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "java 8/11/17",
+      fontAwesomeClassname: "fab fa-java"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -73,12 +73,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Spring",
+      fontAwesomeClassname: "fas fa-leaf"
     },
     {
       skillName: "reactjs",
@@ -87,10 +87,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -105,16 +101,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Tableau",
+      fontAwesomeClassname: "fas fa-plus"
+    },
+    {
+      skillName: "MS Office",
+      fontAwesomeClassname: "fab fa-windows"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +126,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "University of Central Missouri",
+      logo: require("./assets/images/ucmlogo.jpg"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "January 2022 - May 2023",
+      desc: "Enriched my academic journey by delving into a comprehensive array of computer science subjects, including Algorithms, Compiler Design, Database Systems, Operating Systems, alongside cutting-edge technologies such as Artificial Intelligence, Big Data, and Cloud Computing.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+       
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Osmania University",
+      logo: require("./assets/images/oulogo.png"),
+      subHeader: "Bachelor of Engineering",
+      duration: "August 2014 - June 2018",
+      desc: "Majored in Electrical engineering and worked on a major project about a multilevel inverter with reduced number of Switches(Simulated the entire project using MATLAB).",
+      descBullets: []
     }
   ]
 };
@@ -153,15 +152,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Server-side development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Programming",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Client side development",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Database",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +177,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Software Developer",
+      company: "Tek and Company",
+      companylogo: require("./assets/images/teknco.png"),
+      date: "May 2023 – Present",
+      desc: "Designed and developed an enterprise-level RESTful microservice architecture using Java, J2EE, Spring MVC, Hibernate, React JS, SQL server and MongoDB.",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      role: "Student Testing Admin",
+      company: "University of Central Missouri",
+      companylogo: require("./assets/images/ucmule.png"),
+      date: "May 2022 – May 2023",
+      desc: "Managed data migration to University Banner ERP on Ellucian cloud from diverse sources and administered secure Linux systems for online exams, configuring Secure Shell (SSH) for remote access."
+    },
+    {
+      role: "CRM Developer",
+      company: "Deloitte",
+      companylogo: require("./assets/images/deloittelogo.jpg"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Developed REST APIs with Spring MVC, utilizing core Java APIs, collections, Java 8 streams, multithreading, and object-oriented principles."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "QA Associate",
+      company: "Amazon",
+      companylogo: require("./assets/images/amazon.jpg"),
+      date: "May 2017 – May 2018",
+      desc: "Performed Black box testing, Manual and functional Testing on a Amazon watch party applications and executed end-to-end testing with wie range of test cases."
+    },
+    {
+      role: "CAP Analyst",
+      company: "Amazon",
+      companylogo: require("./assets/images/amazon.jpg"),
+      date: "May 2017 – May 2018",
+      desc: "Performed Data analysis on customer accounts for potential risks to Amazon ecosystem, investigating suspicious activities and behaviors."
     }
   ]
 };
@@ -205,38 +218,40 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Personal Projects",
+  subtitle: "SOME PROJECT THAT I CREATED TO MAKE MY WORK SIMPLE",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Testing Services",
+      projectDesc: "MERN stack application",
+      projectBullets: ["Developed a dynamic single-page web application using React, Node.js, Express.js and MongoDB, catering to both students and testing centers for efficient appointment scheduling."]
+      
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectName: "Email Broadcast",
+      projectDesc: "Spring boot application",
+      projectBullets: ["Designed a microservice based spring boot application using Java 11 and Spring data JPA for relating objects with the MySQL database which has all the data to broadcast emails."]
+      
+    },
+    {
+      projectName: "Banking Application",
+      projectDesc: "Maven application",
+      projectBullets: ["Developed an interactive web application using Spring and Hibernate, ensuring application security with Spring Security, managing user authentication and authorization with base64 encoder."]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -362,9 +377,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Just want to say hi? My Inbox is open for all.",
+  number: "+1(980)880-2555",
+  email_address: "reddysetty.vamshi@gmail.com"
 };
 
 // Twitter Section

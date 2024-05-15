@@ -1,3 +1,4 @@
+
 import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
