@@ -229,7 +229,7 @@ const bigProjects = {
   subtitle: "SOME PROJECT THAT I CREATED TO MAKE MY WORK SIMPLE",
   projects: [
     {
-      // image: require("./assets/images/saayaHealthLogo.webp"),
+      // image: require(""),
       projectName: "Testing Services",
       projectDesc: "MERN stack application",
       projectBullets: ["Developed a dynamic single-page web application using React, Node.js, Express.js and MongoDB, catering to both students and testing centers for efficient appointment scheduling."]
@@ -237,7 +237,7 @@ const bigProjects = {
       // footerLink: [
       //   {
       //     name: "Visit Website",
-      //     url: "http://saayahealth.com/"
+      //     url: ""
       //   }
       //   //  you can add extra buttons here.
       // ]
