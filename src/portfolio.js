@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/",
-  linkedin: "https://www.linkedin.com/in/vamshi-krishna-r/",
+  linkedin: "https://www.linkedin.com/in/vamshikrishna07/",
   gmail: "reddysetty.vamshi@gmail.com",
   // instagram: "https://www.instagram.com/vam_shhh/",
   display: true // Set true to display this section, defaults to false
